@@ -1,2 +1,3 @@
 # Pairs_LabProgram
 Takes two separate pairs, compares them, and outputs whether one is larger than the other, the same, or less than the other.
+PairProgram takes two pairs noted by user input of the same type, each pair is stored in a Pair object. The types of each pair value/field is either an Integer, Double or String, since they all implement the Comparable interface. Then, the two Pair objects are compared with an implemented “compareTo” method. PairProgram finally outputs the compared Pair objects with a sign in between, specified by the “comparisonSymbol” method, which utilizes the “compareTo” method.
